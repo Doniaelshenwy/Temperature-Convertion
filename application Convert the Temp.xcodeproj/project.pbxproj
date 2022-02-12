@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC259E1B27B84B5A002B6E60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC259E1A27B84B5A002B6E60 /* AppDelegate.swift */; };
+		FC259E1D27B84B5A002B6E60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC259E1C27B84B5A002B6E60 /* SceneDelegate.swift */; };
+		FC259E1F27B84B5A002B6E60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC259E1E27B84B5A002B6E60 /* ViewController.swift */; };
+		FC259E2227B84B5A002B6E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC259E2027B84B5A002B6E60 /* Main.storyboard */; };
+		FC259E2527B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC259E2327B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodeld */; };
+		FC259E2727B84B5C002B6E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC259E2627B84B5C002B6E60 /* Assets.xcassets */; };
+		FC259E2A27B84B5C002B6E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC259E2827B84B5C002B6E60 /* LaunchScreen.storyboard */; };
+		FC259E3527B84B5C002B6E60 /* application_Convert_the_TempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC259E3427B84B5C002B6E60 /* application_Convert_the_TempTests.swift */; };
+		FC259E4027B84B5C002B6E60 /* application_Convert_the_TempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC259E3F27B84B5C002B6E60 /* application_Convert_the_TempUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC259E3127B84B5C002B6E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC259E0F27B84B5A002B6E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC259E1627B84B5A002B6E60;
+			remoteInfo = "application Convert the Temp";
+		};
+		FC259E3C27B84B5C002B6E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC259E0F27B84B5A002B6E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC259E1627B84B5A002B6E60;
+			remoteInfo = "application Convert the Temp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC259E1727B84B5A002B6E60 /* application Convert the Temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "application Convert the Temp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC259E1A27B84B5A002B6E60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC259E1C27B84B5A002B6E60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC259E1E27B84B5A002B6E60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC259E2127B84B5A002B6E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC259E2427B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = application_Convert_the_Temp.xcdatamodel; sourceTree = "<group>"; };
+		FC259E2627B84B5C002B6E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC259E2927B84B5C002B6E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC259E2B27B84B5C002B6E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC259E3027B84B5C002B6E60 /* application Convert the TempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "application Convert the TempTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC259E3427B84B5C002B6E60 /* application_Convert_the_TempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = application_Convert_the_TempTests.swift; sourceTree = "<group>"; };
+		FC259E3627B84B5C002B6E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC259E3B27B84B5C002B6E60 /* application Convert the TempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "application Convert the TempUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC259E3F27B84B5C002B6E60 /* application_Convert_the_TempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = application_Convert_the_TempUITests.swift; sourceTree = "<group>"; };
+		FC259E4127B84B5C002B6E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC259E1427B84B5A002B6E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E2D27B84B5C002B6E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E3827B84B5C002B6E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC259E0E27B84B5A002B6E60 = {
+			isa = PBXGroup;
+			children = (
+				FC259E1927B84B5A002B6E60 /* application Convert the Temp */,
+				FC259E3327B84B5C002B6E60 /* application Convert the TempTests */,
+				FC259E3E27B84B5C002B6E60 /* application Convert the TempUITests */,
+				FC259E1827B84B5A002B6E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC259E1827B84B5A002B6E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC259E1727B84B5A002B6E60 /* application Convert the Temp.app */,
+				FC259E3027B84B5C002B6E60 /* application Convert the TempTests.xctest */,
+				FC259E3B27B84B5C002B6E60 /* application Convert the TempUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC259E1927B84B5A002B6E60 /* application Convert the Temp */ = {
+			isa = PBXGroup;
+			children = (
+				FC259E1A27B84B5A002B6E60 /* AppDelegate.swift */,
+				FC259E1C27B84B5A002B6E60 /* SceneDelegate.swift */,
+				FC259E1E27B84B5A002B6E60 /* ViewController.swift */,
+				FC259E2027B84B5A002B6E60 /* Main.storyboard */,
+				FC259E2627B84B5C002B6E60 /* Assets.xcassets */,
+				FC259E2827B84B5C002B6E60 /* LaunchScreen.storyboard */,
+				FC259E2B27B84B5C002B6E60 /* Info.plist */,
+				FC259E2327B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodeld */,
+			);
+			path = "application Convert the Temp";
+			sourceTree = "<group>";
+		};
+		FC259E3327B84B5C002B6E60 /* application Convert the TempTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC259E3427B84B5C002B6E60 /* application_Convert_the_TempTests.swift */,
+				FC259E3627B84B5C002B6E60 /* Info.plist */,
+			);
+			path = "application Convert the TempTests";
+			sourceTree = "<group>";
+		};
+		FC259E3E27B84B5C002B6E60 /* application Convert the TempUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC259E3F27B84B5C002B6E60 /* application_Convert_the_TempUITests.swift */,
+				FC259E4127B84B5C002B6E60 /* Info.plist */,
+			);
+			path = "application Convert the TempUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC259E1627B84B5A002B6E60 /* application Convert the Temp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC259E4427B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the Temp" */;
+			buildPhases = (
+				FC259E1327B84B5A002B6E60 /* Sources */,
+				FC259E1427B84B5A002B6E60 /* Frameworks */,
+				FC259E1527B84B5A002B6E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "application Convert the Temp";
+			productName = "application Convert the Temp";
+			productReference = FC259E1727B84B5A002B6E60 /* application Convert the Temp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC259E2F27B84B5C002B6E60 /* application Convert the TempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC259E4727B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the TempTests" */;
+			buildPhases = (
+				FC259E2C27B84B5C002B6E60 /* Sources */,
+				FC259E2D27B84B5C002B6E60 /* Frameworks */,
+				FC259E2E27B84B5C002B6E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC259E3227B84B5C002B6E60 /* PBXTargetDependency */,
+			);
+			name = "application Convert the TempTests";
+			productName = "application Convert the TempTests";
+			productReference = FC259E3027B84B5C002B6E60 /* application Convert the TempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC259E3A27B84B5C002B6E60 /* application Convert the TempUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC259E4A27B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the TempUITests" */;
+			buildPhases = (
+				FC259E3727B84B5C002B6E60 /* Sources */,
+				FC259E3827B84B5C002B6E60 /* Frameworks */,
+				FC259E3927B84B5C002B6E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC259E3D27B84B5C002B6E60 /* PBXTargetDependency */,
+			);
+			name = "application Convert the TempUITests";
+			productName = "application Convert the TempUITests";
+			productReference = FC259E3B27B84B5C002B6E60 /* application Convert the TempUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC259E0F27B84B5A002B6E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FC259E1627B84B5A002B6E60 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FC259E2F27B84B5C002B6E60 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC259E1627B84B5A002B6E60;
+					};
+					FC259E3A27B84B5C002B6E60 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC259E1627B84B5A002B6E60;
+					};
+				};
+			};
+			buildConfigurationList = FC259E1227B84B5A002B6E60 /* Build configuration list for PBXProject "application Convert the Temp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC259E0E27B84B5A002B6E60;
+			productRefGroup = FC259E1827B84B5A002B6E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC259E1627B84B5A002B6E60 /* application Convert the Temp */,
+				FC259E2F27B84B5C002B6E60 /* application Convert the TempTests */,
+				FC259E3A27B84B5C002B6E60 /* application Convert the TempUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC259E1527B84B5A002B6E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC259E2A27B84B5C002B6E60 /* LaunchScreen.storyboard in Resources */,
+				FC259E2727B84B5C002B6E60 /* Assets.xcassets in Resources */,
+				FC259E2227B84B5A002B6E60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E2E27B84B5C002B6E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E3927B84B5C002B6E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC259E1327B84B5A002B6E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC259E1F27B84B5A002B6E60 /* ViewController.swift in Sources */,
+				FC259E1B27B84B5A002B6E60 /* AppDelegate.swift in Sources */,
+				FC259E2527B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodeld in Sources */,
+				FC259E1D27B84B5A002B6E60 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E2C27B84B5C002B6E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC259E3527B84B5C002B6E60 /* application_Convert_the_TempTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC259E3727B84B5C002B6E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC259E4027B84B5C002B6E60 /* application_Convert_the_TempUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC259E3227B84B5C002B6E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC259E1627B84B5A002B6E60 /* application Convert the Temp */;
+			targetProxy = FC259E3127B84B5C002B6E60 /* PBXContainerItemProxy */;
+		};
+		FC259E3D27B84B5C002B6E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC259E1627B84B5A002B6E60 /* application Convert the Temp */;
+			targetProxy = FC259E3C27B84B5C002B6E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC259E2027B84B5A002B6E60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC259E2127B84B5A002B6E60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC259E2827B84B5C002B6E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC259E2927B84B5C002B6E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC259E4227B84B5C002B6E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC259E4327B84B5C002B6E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC259E4527B84B5C002B6E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the Temp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-Temp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC259E4627B84B5C002B6E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the Temp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-Temp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC259E4827B84B5C002B6E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the TempTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-TempTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/application Convert the Temp.app/application Convert the Temp";
+			};
+			name = Debug;
+		};
+		FC259E4927B84B5C002B6E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the TempTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-TempTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/application Convert the Temp.app/application Convert the Temp";
+			};
+			name = Release;
+		};
+		FC259E4B27B84B5C002B6E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the TempUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-TempUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "application Convert the Temp";
+			};
+			name = Debug;
+		};
+		FC259E4C27B84B5C002B6E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "application Convert the TempUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.application-Convert-the-TempUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "application Convert the Temp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC259E1227B84B5A002B6E60 /* Build configuration list for PBXProject "application Convert the Temp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC259E4227B84B5C002B6E60 /* Debug */,
+				FC259E4327B84B5C002B6E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC259E4427B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the Temp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC259E4527B84B5C002B6E60 /* Debug */,
+				FC259E4627B84B5C002B6E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC259E4727B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the TempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC259E4827B84B5C002B6E60 /* Debug */,
+				FC259E4927B84B5C002B6E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC259E4A27B84B5C002B6E60 /* Build configuration list for PBXNativeTarget "application Convert the TempUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC259E4B27B84B5C002B6E60 /* Debug */,
+				FC259E4C27B84B5C002B6E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC259E2327B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC259E2427B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodel */,
+			);
+			currentVersion = FC259E2427B84B5A002B6E60 /* application_Convert_the_Temp.xcdatamodel */;
+			path = application_Convert_the_Temp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC259E0F27B84B5A002B6E60 /* Project object */;
+}
