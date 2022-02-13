@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         }
         if(convertCelsiusTemp <= 100){
         let converFahrenheitTemp = (convertCelsiusTemp*9/5)+32
-        convertTempLabel.text = String(converFahrenheitTemp) + " F"
+        convertTempLabel.text = "\(String(converFahrenheitTemp)) F"
         }
         else{
             convertTempLabel.text = "Enter invalid value"
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         }
         if(convertCelsiusTemp <= 100){
         let converKelvinTemp = convertCelsiusTemp+273.1518
-        convertTempLabel.text = String(converKelvinTemp) + " K"
+        convertTempLabel.text = "\(String(converKelvinTemp)) K"
         }
         else{
             convertTempLabel.text = "Enter invalid value"
